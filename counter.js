@@ -1,1 +1,8 @@
-document.write('0')
+var counter = 'XXXXXX';
+
+window.onload = function () {
+  var counterElem = document.querySelector("#counter");
+  if (counterElem) {
+    counterElem.innerHTML = counter;
+  }
+};
